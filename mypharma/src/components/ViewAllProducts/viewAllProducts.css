@@ -1,0 +1,78 @@
+
+.GridProductsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 20px;
+    padding: 15px;
+  }
+  
+  /* Style individual product cards in the grid */
+  .GridCard {
+    border: 1px solid rgb(59, 59, 59);
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #e6e6e6;
+  }
+  
+  /* Style product card content */
+  .GridCard p {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  /* Style the delete and update buttons */
+  .DeleteButton {
+    background-color: #ff0000;
+    color: #fff;
+    margin-left: 55px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .DeleteButton:hover {
+    background-color: #cc0000;
+  }
+  
+  .UpdateButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .UpdateButton:hover {
+    background-color: #0056b3;
+  }
+
+  .OrderButton{
+    background-color: #05a017;
+    color: rgb(250, 250, 248);
+    border: none;
+    font-weight: bold;
+    font-size:15px;
+    margin-top: 5px;
+    margin-left: 275px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  .OrderButton:hover {
+    background-color: #05a017;
+    color:rgb(190, 5, 5);
+    
+  }
+  .PageHeading {
+    text-align: center;
+    background-color: antiquewhite;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333; /* Adjust the color as needed */
+  }
